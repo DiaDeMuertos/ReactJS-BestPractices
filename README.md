@@ -36,7 +36,7 @@ $ npm run storybook
 ```
 
 ### To Add
-Once we have create a storybook componet we need to add the story to the loadStories function in the file `./src/stories/stories.js`.
+Once we have create a storybook to the component, we need to add it to the loadStories function in the file `./src/stories/stories.js`.
 
 ![App component example](./src/assets/images/add_story.png)
 
