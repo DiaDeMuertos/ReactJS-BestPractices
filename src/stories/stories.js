@@ -1,5 +1,7 @@
+const req = require.context('../components', true, /\.stories\.js$/);
+
 function loadStories() {
-  require('../components/App/App.story');
+  req.keys().forEach(filename => req(filename));
 }
 
 export default loadStories();
